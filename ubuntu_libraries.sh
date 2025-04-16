@@ -12,3 +12,9 @@ sudo apt install -y libudunits2-dev libproj-dev libgdal-dev
 sudo apt install cmake gdal-bin libgdal-dev libudunits2-dev
 sudo apt install cmake
 sudo apt install libgit2-dev
+sudo apt-get update
+sudo apt install software-properties-common
+sudo apt update
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install --only-upgrade libstdc++6
