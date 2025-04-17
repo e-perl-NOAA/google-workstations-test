@@ -17,4 +17,4 @@ sudo apt install -y software-properties-common
 sudo apt update
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 sudo apt-get update
-sudo apt-get install --only-upgrade libstdc++6
+sudo apt-get install -y --only-upgrade libstdc++6
